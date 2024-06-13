@@ -1,0 +1,45 @@
+@import "../../vars.css";
+body {
+  font-size: 16px;
+}
+.footer {
+  margin-top: 150px;
+  padding: 0 200px;
+}
+
+.divUp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.divUp .logo {
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  margin-right: 60px;
+}
+
+.divUp ol {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+}
+
+.divUp li {
+  margin-top: 5px;
+}
+
+.divDown {
+  margin: 25px 0px 25px 0px;
+}
+
+.divDown p {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 980px) {
+  .footer {
+    padding: 0 50px;
+  }
+}

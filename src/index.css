@@ -1,0 +1,21 @@
+@import "./vars.css";
+@import "@fontsource/inter"; /* Defaults to weight 400 */
+@import "@fontsource/inter/400.css"; /* Specify weight 400 */
+@import "@fontsource/inter/700.css"; /* Specify weight 700 */
+
+@import "@fontsource/roboto"; /* Defaults to weight 400 */
+@import "@fontsource/roboto/400.css"; /* Specify weight 400 */
+@import "@fontsource/roboto/700.css"; /* Specify weight 700 */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", "Roboto";
+}
+
+h1,
+h2 {
+  color: black;
+  opacity: 0.8;
+}

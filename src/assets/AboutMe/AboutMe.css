@@ -1,0 +1,75 @@
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: space-between;
+  text-align: left;
+  min-height: 40vh;
+  padding: 0;
+}
+
+.aboutMe h2 {
+  margin-bottom: 40px;
+}
+.aboutLeft {
+  width: 60%;
+  margin-left: 200px;
+}
+
+.aboutRight {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.about-btn {
+  margin-top: 15px;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #000000ab;
+}
+
+.FaArrowR {
+  font-size: 12px;
+}
+
+.aboutPic {
+  height: 80vh;
+  width: 100%;
+  object-fit: scale-down;
+}
+@media only screen and (max-width: 980px) {
+  .aboutMe {
+    flex-direction: column-reverse;
+    height: 75vh;
+  }
+  .aboutLeft {
+    margin: 0;
+    padding: 0 50px;
+    width: 100%;
+  }
+  .aboutRight {
+    top: 50%;
+    width: 100%;
+  }
+  .aboutPic {
+    height: 50vh;
+    width: 80vh;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .aboutMe {
+    flex-direction: column;
+    height: 0;
+  }
+  .aboutRight {
+    visibility: collapse;
+  }
+  .aboutLeft {
+    margin-top: 5vh;
+  }
+}

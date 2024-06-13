@@ -1,0 +1,36 @@
+.hero-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  min-height: 100vh;
+  padding: 0 50px;
+  background-color: rgba(146, 133, 116, 0.326);
+  width: 100%;
+}
+
+.hero-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.hero-page h1 {
+  color: rgba(0, 0, 0, 0.903);
+  font-size: 45px;
+}
+.hero-page h1,
+.hero-page p {
+  font-family: sans-serif;
+  text-align: Left;
+  width: 100%;
+  max-width: 550px;
+}
+
+.hero-btn {
+  margin-top: 10px;
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
