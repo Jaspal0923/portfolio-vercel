@@ -34,13 +34,17 @@ const Projects = () => {
     <section className="projects">
       <div className="proj-title">
         <h2>Projects</h2>
+        <p id="proj-desc">Move your cursor inside the picture to pause</p>
+        <p id="proj-desc">
+          Move your cursor to the corner of the page to autoplay projects
+        </p>
       </div>
       <div className="proj-main">
         <Carousel
           showThumbs={false}
           infiniteLoop
           autoPlay
-          interval={5000}
+          interval={6000}
           transitionTime={1000}
         >
           <div id="proj-com">
