@@ -34,10 +34,17 @@ const Projects = () => {
     <section className="projects">
       <div className="proj-title">
         <h2>Projects</h2>
-        <p id="proj-desc">Move your cursor inside the picture to pause</p>
-        <p id="proj-desc">
-          Move your cursor to the corner of the page to autoplay projects
-        </p>
+        <div className="auto-desc">
+          <p id="proj-desc">
+            Move your cursor <span style={{ color: "red" }}>inside</span> the
+            <span style={{ fontWeight: "bold" }}> picture to pause</span>
+          </p>
+          <p id="proj-desc">
+            Move your cursor to the <span style={{ color: "red" }}>corner</span>{" "}
+            of the page to{" "}
+            <span style={{ fontWeight: "bold" }}> autoplay projects</span>
+          </p>
+        </div>
       </div>
       <div className="proj-main">
         <Carousel
