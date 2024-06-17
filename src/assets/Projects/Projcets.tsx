@@ -28,6 +28,24 @@ const Projects = () => {
         },
       }
     );
+
+    gsap.fromTo(
+      ".auto-desc",
+      { opacity: 0, duration: 1, y: 50 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        stagger: 0.3,
+        ease: "ease",
+        scrollTrigger: {
+          trigger: ".auto-desc",
+          start: "top 60%",
+          end: "bottom 25%",
+          toggleActions: "play reverse play reverse",
+        },
+      }
+    );
   });
 
   return (
