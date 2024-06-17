@@ -26,7 +26,7 @@ const Hero = () => {
         <h1>Jaspal Singh</h1>
         <p>
           a{" "}
-          <span style={{ fontWeight: "bold", color: "black", opacity: "0.7" }}>
+          <span style={{ fontWeight: "bold", color: "black" }}>
             full-stack developer
           </span>{" "}
           dedicated to creating innovative software solutions.

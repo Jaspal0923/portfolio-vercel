@@ -1,3 +1,4 @@
+@import "../../vars.css";
 .aboutMe {
   display: flex;
   flex-direction: row;
@@ -26,10 +27,15 @@
 }
 
 .about-btn {
-  margin-top: 15px;
+  margin-top: 20px;
+  height: 25px;
+  width: 170px;
+  border-radius: 10px;
   cursor: pointer;
-  text-decoration: underline;
-  color: #000000ab;
+}
+
+.about-btn:hover {
+  background-color: #e43c127c;
 }
 
 .FaArrowR {

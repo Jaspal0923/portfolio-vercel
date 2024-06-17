@@ -1,16 +1,16 @@
 import "./AboutMe.css";
-import { FaArrowRight } from "react-icons/fa";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-
+import PDFPopup from "./PDFPopup";
 import aboutPic from "../Images/me/IMG_0359.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const AboutMe = () => {
   const aboutMeRef = useRef(null);
+  const [isPDFPopupOpen, setIsPDFPopupOpen] = useState(false);
 
   useGSAP(() => {
     gsap.fromTo(
@@ -23,7 +23,7 @@ const AboutMe = () => {
         stagger: 0.3,
         ease: "power2.inOut",
         scrollTrigger: {
-          trigger: ".aboutLeft, .aboutRight",
+          trigger: ".aboutMe",
           start: "top 80%",
           end: "bottom 25%",
           toggleActions: "play reverse play reverse",
@@ -50,6 +50,16 @@ const AboutMe = () => {
     );
   }, []);
 
+  const openPDFPopup = () => {
+    setIsPDFPopupOpen(true);
+  };
+
+  const closePDFPopup = () => {
+    setIsPDFPopupOpen(false);
+  };
+
+  const pdfUrl = "../pdf/Jaspal-Singh-cv-2.jpg";
+
   return (
     <section className="aboutMe" ref={aboutMeRef}>
       <div className="aboutLeft">
@@ -64,15 +74,19 @@ const AboutMe = () => {
           , showcasing my passion for technology and readiness to tackle
           challenges and innovate.
         </p>
-        <p className="about-btn">
-          <div className="FaArrowR">
-            View My Resume <FaArrowRight />
-          </div>
-        </p>
+        <button className="about-btn" onClick={openPDFPopup}>
+          View My Resume
+        </button>
       </div>
       <div className="aboutRight">
         <img src={aboutPic} alt="PICTURE" className="aboutPic"></img>
       </div>
+
+      <PDFPopup
+        isOpen={isPDFPopupOpen}
+        closeModal={closePDFPopup}
+        pdfUrl={pdfUrl}
+      />
     </section>
   );
 };

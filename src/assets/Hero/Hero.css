@@ -5,7 +5,7 @@
   justify-content: center;
   text-align: justify;
   min-height: 100vh;
-  padding: 0 50px;
+  padding: 0 90px;
   background-color: rgba(146, 133, 116, 0.326);
   width: 100%;
 }
@@ -16,7 +16,6 @@
   justify-content: left;
 }
 .hero-page h1 {
-  color: rgba(0, 0, 0, 0.903);
   font-size: 45px;
 }
 .hero-page h1,
@@ -33,4 +32,8 @@
   width: 100px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: #e43c127c;
 }
