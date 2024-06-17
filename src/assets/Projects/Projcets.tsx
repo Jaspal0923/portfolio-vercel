@@ -1,5 +1,10 @@
+import "./Projects.css";
 const Projcets = () => {
-  return <div>Projcets</div>;
+  return (
+    <section className="projects">
+      <h2>Projects</h2>
+    </section>
+  );
 };
 
 export default Projcets;
