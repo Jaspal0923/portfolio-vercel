@@ -1,6 +1,6 @@
 import React from "react";
 import Modal from "react-modal";
-import pdfUrl from "../pdf/Jaspal-Singh-cv-2.pdf";
+import pdfUrl from "../pdf/Jaspal Singh cv 4.pdf";
 interface PDFPopupProps {
   isOpen: boolean;
   closeModal: () => void;
@@ -14,7 +14,9 @@ const PDFPopup: React.FC<PDFPopupProps> = ({ isOpen, closeModal }) => {
       onRequestClose={closeModal}
       contentLabel="PDF Viewer"
     >
-      <button onClick={closeModal}>Close PDF</button>
+      <button className="closePDF-btn" onClick={closeModal}>
+        Close PDF
+      </button>
       <iframe title="PDF Viewer" src={pdfUrl} width="100%" height="100%" />
     </Modal>
   );

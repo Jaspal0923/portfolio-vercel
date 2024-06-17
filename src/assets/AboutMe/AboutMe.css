@@ -47,6 +47,11 @@
   width: 100%;
   object-fit: scale-down;
 }
+
+.closePDF-btn {
+  margin-top: 20px;
+}
+
 @media only screen and (max-width: 980px) {
   .aboutMe {
     flex-direction: column-reverse;

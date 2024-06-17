@@ -80,6 +80,7 @@
 
 @media only screen and (max-width: 570px) {
   .awards-img img {
+    display: none;
     justify-content: center;
     margin: 5% 0;
     height: 150px;
