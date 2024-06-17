@@ -15,13 +15,15 @@ const Footer = () => {
           </p>
           <ol>
             <li>
-              <a href="#">Facebook</a>
+              <a href="https://www.facebook.com/jmagaso.singh/">Facebook</a>
             </li>
             <li>
-              <a href="#">Instagram</a>
+              <a href="https://www.facebook.com/jmagaso.singh/">Instagram</a>
             </li>
             <li>
-              <a href="#">Linkedin</a>
+              <a href="https://www.linkedin.com/in/jaspal-singh-60010a283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                Linkedin
+              </a>
             </li>
           </ol>
         </div>

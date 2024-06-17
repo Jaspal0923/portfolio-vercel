@@ -28,7 +28,7 @@ const Awards = () => {
         scrollTrigger: {
           trigger: ".awards",
           start: "top 80%",
-          end: "bottom 25%",
+          end: "bottom 50%",
           toggleActions: "play reverse play reverse",
         },
       }
@@ -37,10 +37,7 @@ const Awards = () => {
   return (
     <section className="awards">
       <div className="awards-right">
-        <h2>
-          Awards and <br />
-          Certifications
-        </h2>
+        <h2>Awards and Certifications</h2>
         <div className="awards-img">
           <img src={javacert} alt="java" />
           <img src={htmlcert} alt="htmlcss" />

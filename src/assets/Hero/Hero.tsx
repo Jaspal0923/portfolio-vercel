@@ -31,7 +31,7 @@ const Hero = () => {
           </span>{" "}
           dedicated to creating innovative software solutions.
         </p>
-        <Link to="aboutMe" smooth={true} duration={500} offset={-100}>
+        <Link to="aboutMe" smooth={true} duration={800} offset={-100}>
           <button className="hero-btn">About me</button>
         </Link>
       </div>

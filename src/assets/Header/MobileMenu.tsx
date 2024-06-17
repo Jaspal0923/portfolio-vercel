@@ -26,21 +26,33 @@ const MobileMenu = ({ toggleNavbar }: { toggleNavbar: any }) => {
           <Link
             to="hero-page"
             smooth={true}
-            duration={500}
+            duration={1000}
             onClick={toggleNavbar}
           >
             HOME
           </Link>
         </li>
         <li>
-          <a href="#certificates" onClick={toggleNavbar}>
+          <Link
+            to="awards"
+            smooth={true}
+            duration={1000}
+            offset={-150}
+            onClick={toggleNavbar}
+          >
             CERTIFICATES
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#projects" onClick={toggleNavbar}>
+          <Link
+            to="projects"
+            smooth={true}
+            duration={1000}
+            offset={-80}
+            onClick={toggleNavbar}
+          >
             PROJECTS
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

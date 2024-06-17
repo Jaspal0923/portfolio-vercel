@@ -32,24 +32,26 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="hero-page" smooth={true} duration={500}>
+        <Link to="hero-page" smooth={true} duration={1000}>
           JASPAL <span style={{ color: "red" }}>|</span>
         </Link>
       </div>
       <nav className="desktop">
         <ol>
           <li>
-            <Link to="hero-page" smooth={true} duration={500}>
+            <Link to="hero-page" smooth={true} duration={1000}>
               HOME
             </Link>
           </li>
           <li>
-            <Link to="awards" smooth={true} duration={1000}>
+            <Link to="awards" smooth={true} duration={1000} offset={-150}>
               CERTIFICATES
             </Link>
           </li>
           <li>
-            <a href="#projects">PROJECTS</a>
+            <Link to="projects" smooth={true} duration={1000} offset={40}>
+              PROJECTS
+            </Link>
           </li>
         </ol>
       </nav>

@@ -1,11 +1,10 @@
 .awards {
   display: flex;
-  margin-top: 100px;
+  margin-top: 250px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 0;
-  margin-top: 150px;
 }
 
 .awards-right {
@@ -20,7 +19,6 @@
   width: 55%;
   margin-right: 200px;
   display: flex;
-  height: 55vh;
 }
 
 .awards-img img {
@@ -29,11 +27,6 @@
   width: 150px;
 }
 
-.certs-img {
-  transform: translate3d(0, 0, 0);
-  height: 100px;
-  object-fit: scale-down;
-}
 .awards-img {
   display: flex;
   flex-direction: row;
@@ -49,10 +42,11 @@
   opacity: 1;
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1350px) {
   .awards {
+    margin-top: 150px;
     padding: 0 50px;
-    align-items: normal;
+    align-items: center;
     flex-direction: column;
   }
   .awards-right {
@@ -70,15 +64,21 @@
   .awards-left {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 70%;
   }
   .certs-img {
     margin-top: 30px;
-    height: 100vh;
   }
 }
 
 @media only screen and (max-width: 570px) {
+  .awards {
+    padding: 0 25px;
+  }
+
+  .awards-left {
+    width: 90%;
+  }
   .awards-img img {
     display: none;
     justify-content: center;
