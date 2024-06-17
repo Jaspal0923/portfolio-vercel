@@ -1,6 +1,7 @@
 import React from "react";
 import Modal from "react-modal";
-import pdfUrl from "../pdf/Jaspal Singh cv 4.pdf";
+import pdfUrl from "../pdf/Jaspal SIngh cv.pdf";
+
 interface PDFPopupProps {
   isOpen: boolean;
   closeModal: () => void;
