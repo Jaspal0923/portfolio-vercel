@@ -69,7 +69,7 @@ section.projects {
 }
 @media only screen and (max-width: 450px) {
   section.projects {
-    padding: 40px 20px;
+    padding: 40px 50px;
   }
 
   #proj-com {
