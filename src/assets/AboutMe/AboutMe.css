@@ -51,7 +51,14 @@
 .closePDF-btn {
   margin-top: 20px;
 }
-
+@media only screen and (max-width: 1350px) {
+  .aboutMe {
+    padding: 0 50px;
+  }
+  .aboutLeft {
+    margin: 0;
+  }
+}
 @media only screen and (max-width: 980px) {
   .aboutMe {
     flex-direction: column-reverse;
@@ -59,7 +66,6 @@
   }
   .aboutLeft {
     margin: 0;
-    padding: 0 50px;
     width: 100%;
   }
   .aboutRight {

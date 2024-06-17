@@ -3,6 +3,12 @@ section.projects {
   margin-top: 150px;
 }
 
+#github {
+  padding: 0;
+  width: 100px;
+  height: 100px;
+}
+
 #proj-com {
   display: flex;
   flex-direction: row;

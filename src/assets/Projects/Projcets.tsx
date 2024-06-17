@@ -5,6 +5,9 @@ import { useGSAP } from "@gsap/react";
 import proj1 from "../Images/projects/Proj1.png";
 import proj2 from "../Images/projects/Proj2.png";
 import proj3 from "../Images/projects/Proj3.png";
+import proj4 from "../Images/projects/Proj4.png";
+
+import github from "../Images/png/github_PNG23.png";
 
 const Projects = () => {
   useGSAP(() => {
@@ -66,6 +69,11 @@ const Projects = () => {
               <br />
               <h4>-Tools-</h4>
               <p id="proj-desc">Java, SqLite</p>
+              <div id="github">
+                <a href="https://github.com/Jaspal0923/jjcv-s.git">
+                  <img src={github} alt="github" />
+                </a>
+              </div>
             </div>
           </div>
           <div id="proj-com">
@@ -94,6 +102,11 @@ const Projects = () => {
               <br />
               <h4>-Tools-</h4>
               <p id="proj-desc">Php, HTML, CSS, Bootstrap, MySql</p>
+              <div id="github">
+                <a href="https://github.com/Jaspal0923/lmsPHP.git">
+                  <img src={github} alt="github" />
+                </a>
+              </div>
             </div>
           </div>
           <div id="proj-com">
@@ -115,14 +128,47 @@ const Projects = () => {
               <h4>-Role-</h4>
               <p id="proj-desc">
                 My role involved guiding and assisting the frontend team in
-                implementing correct functionality through coding, while also
-                designing and developing the backend of the system using the
-                MERN stack.
+                implementing correct functionality, while also designing and
+                developing the backend of the system using the MERN stack.
               </p>
               <br />
               <h4>-Tools-</h4>
               <p id="proj-desc">
                 MongoDB, Reactjs, Nodejs, Expressjs, TailWindCSS, GSAP{" "}
+                <div id="github">
+                  <a href="https://github.com/orake2341/techtype.git">
+                    <img src={github} alt="github" />
+                  </a>
+                </div>
+              </p>
+            </div>
+          </div>
+          <div id="proj-com">
+            <img src={proj4} id="proj-top" />
+            <div id="proj-down">
+              <h3>My Portfolio</h3>
+              <br />
+              <p id="proj-desc">Showcasing my work and achievement</p>
+              <br />
+              <div id="side-by-side">
+                <h4>No. of Members:</h4>
+                <p id="proj-desc">1</p>
+              </div>
+              <br />
+              <h4>-Role-</h4>
+              <p id="proj-desc">
+                Designed and implemented the portfolio wireframe using React.js
+                and GSAP
+              </p>
+              <br />
+              <h4>-Tools-</h4>
+              <p id="proj-desc">
+                React Js, GSAP
+                <div id="github">
+                  <a href="https://github.com/Jaspal0923/portfolio-vercel.git">
+                    <img src={github} alt="github" />
+                  </a>
+                </div>
               </p>
             </div>
           </div>

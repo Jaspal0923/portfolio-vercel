@@ -18,7 +18,9 @@ const Footer = () => {
               <a href="https://www.facebook.com/jmagaso.singh/">Facebook</a>
             </li>
             <li>
-              <a href="https://www.facebook.com/jmagaso.singh/">Instagram</a>
+              <a href="https://www.instagram.com/s_jaspal27?igsh=YWNtbm53Z25rMWVw">
+                Instagram
+              </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/jaspal-singh-60010a283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
