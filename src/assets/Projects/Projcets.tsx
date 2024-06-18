@@ -23,7 +23,7 @@ const Projects = () => {
         scrollTrigger: {
           trigger: ".projects",
           start: "top 100%",
-          end: "bottom 20%",
+          end: "bottom 10%",
           toggleActions: "play reverse play reverse",
         },
       }
@@ -41,7 +41,7 @@ const Projects = () => {
         scrollTrigger: {
           trigger: ".auto-desc",
           start: "top 100%",
-          end: "bottom 20%",
+          end: "bottom 10%",
           toggleActions: "play reverse play reverse",
         },
       }
