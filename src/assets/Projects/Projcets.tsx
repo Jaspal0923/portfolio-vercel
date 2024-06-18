@@ -22,7 +22,7 @@ const Projects = () => {
         ease: "power2.out",
         scrollTrigger: {
           trigger: ".projects",
-          start: "top 60%",
+          start: "top 100%",
           end: "bottom 20%",
           toggleActions: "play reverse play reverse",
         },
@@ -40,7 +40,7 @@ const Projects = () => {
         ease: "ease",
         scrollTrigger: {
           trigger: ".auto-desc",
-          start: "top 60%",
+          start: "top 100%",
           end: "bottom 20%",
           toggleActions: "play reverse play reverse",
         },
