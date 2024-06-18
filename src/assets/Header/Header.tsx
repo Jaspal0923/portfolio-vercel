@@ -44,7 +44,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link to="awards" smooth={true} duration={1000} offset={-170}>
+            <Link to="awards" smooth={true} duration={1000} offset={-250}>
               CERTIFICATES
             </Link>
           </li>
