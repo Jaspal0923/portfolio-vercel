@@ -40,8 +40,8 @@ const Projects = () => {
         ease: "ease",
         scrollTrigger: {
           trigger: ".auto-desc",
-          start: "top 100%",
-          end: "bottom 10%",
+          start: "top 80%",
+          end: "bottom 15%",
           toggleActions: "play reverse play reverse",
         },
       }
