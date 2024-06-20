@@ -23,8 +23,11 @@
   height: auto;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 980px) {
   .certificates {
     padding: 0 50px;
+  }
+  .cert-cert {
+    width: 100%;
   }
 }

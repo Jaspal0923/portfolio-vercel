@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import { gsap } from "gsap";
 import cert1 from "../Images/Certificates/mentor.png";
 import cert2 from "../Images/Certificates/pycert.jpg";
