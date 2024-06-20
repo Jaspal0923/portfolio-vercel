@@ -58,8 +58,6 @@ const AboutMe = () => {
     setIsPDFPopupOpen(false);
   };
 
-  const pdfUrl = "../pdf/Jaspal-Singh-cv-2.jpg";
-
   return (
     <section className="aboutMe" ref={aboutMeRef}>
       <div className="aboutLeft">
@@ -82,11 +80,7 @@ const AboutMe = () => {
         <img src={aboutPic} alt="PICTURE" className="aboutPic"></img>
       </div>
 
-      <PDFPopup
-        isOpen={isPDFPopupOpen}
-        closeModal={closePDFPopup}
-        pdfUrl={pdfUrl}
-      />
+      <PDFPopup isOpen={isPDFPopupOpen} closeModal={closePDFPopup} />
     </section>
   );
 };

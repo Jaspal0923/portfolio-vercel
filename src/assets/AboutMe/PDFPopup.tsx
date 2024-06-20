@@ -5,7 +5,6 @@ import pdfUrl from "../pdf/Jaspal SIngh cv.pdf";
 interface PDFPopupProps {
   isOpen: boolean;
   closeModal: () => void;
-  pdfUrl: string;
 }
 
 const PDFPopup: React.FC<PDFPopupProps> = ({ isOpen, closeModal }) => {
