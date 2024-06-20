@@ -1,6 +1,8 @@
 import Homepage from "./assets/HomePage/Homepage";
 import { useEffect } from "react";
-
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 function App() {
   useEffect(() => {
     document.title = "Jaspal Singh -  Portfolio";

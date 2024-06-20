@@ -40,6 +40,6 @@ body {
 
 @media only screen and (max-width: 980px) {
   .footer {
-    padding: 0 50px;
+    padding: 0;
   }
 }

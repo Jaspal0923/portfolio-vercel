@@ -1,0 +1,30 @@
+.certificates {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 200px;
+  height: auto;
+  align-items: center;
+}
+
+.cert-cert {
+  margin-top: 50px;
+  width: 70%;
+}
+.certificates-inner {
+  display: flex;
+  width: 100%;
+}
+
+.certificates-inner img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 720px) {
+  .certificates {
+    padding: 0 50px;
+  }
+}

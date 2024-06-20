@@ -1,5 +1,6 @@
 import "./Projects.css";
 import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import proj1 from "../Images/projects/Proj1.png";
@@ -22,7 +23,7 @@ const Projects = () => {
         ease: "power2.out",
         scrollTrigger: {
           trigger: ".projects",
-          start: "top 85%",
+          start: "top 100%",
           end: "bottom 10%",
           toggleActions: "play reverse play reverse",
         },
@@ -40,7 +41,7 @@ const Projects = () => {
         ease: "ease",
         scrollTrigger: {
           trigger: ".auto-desc",
-          start: "top 80%",
+          start: "top 100%",
           end: "bottom 15%",
           toggleActions: "play reverse play reverse",
         },
@@ -208,3 +209,7 @@ const Projects = () => {
 };
 
 export default Projects;
+
+{
+  /*  */
+}
