@@ -18,7 +18,7 @@ const Projects = () => {
       {
         opacity: 1,
         y: 0,
-        duration: 1,
+        duration: 1.5,
         stagger: 0.3,
         ease: "power2.out",
         scrollTrigger: {
@@ -35,13 +35,13 @@ const Projects = () => {
       {
         opacity: 1,
         y: 0,
-        duration: 1,
+        duration: 1.5,
         stagger: 0.3,
         ease: "ease",
         scrollTrigger: {
           trigger: ".auto-desc",
           start: "top 100%",
-          toggleActions: "play reverse play reverse",
+          toggleActions: "play false play false",
         },
       }
     );
