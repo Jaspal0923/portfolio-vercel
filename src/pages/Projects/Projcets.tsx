@@ -24,8 +24,7 @@ const Projects = () => {
         scrollTrigger: {
           trigger: ".projects",
           start: "top 100%",
-          end: "bottom 100%",
-          toggleActions: "play reverse play reverse",
+          toggleActions: "play false play false",
         },
       }
     );
