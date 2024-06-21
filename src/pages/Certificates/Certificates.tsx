@@ -19,6 +19,7 @@ const Certificates = () => {
         scrollTrigger: {
           trigger: ".certificates",
           start: "top 100%",
+end:"10%",
           toggleActions: "play reverse play reverse",
         },
       }
