@@ -63,7 +63,7 @@ const Awards = () => {
         scrollTrigger: {
           trigger: ".awards",
           start: "top 100%",
-          toggleActions: "play false play false",
+          toggleActions: "play reverse play reverse",
         },
       }
     );
