@@ -20,7 +20,7 @@ const Certificates = () => {
           trigger: ".certificates",
           start: "top 100%",
 end:"10%",
-          toggleActions: "play reverse play reverse",
+          toggleActions: "play false play false",
         },
       }
     );
