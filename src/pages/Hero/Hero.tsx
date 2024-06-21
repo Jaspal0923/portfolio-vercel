@@ -1,6 +1,8 @@
 import gsap from "gsap";
 import "./Hero.css";
-import aboutPic from "../Images/me/IMG_0359.png";
+import aboutPic from "../../assets/Images/me/IMG_0359.png";
+import gmailIcon from "../../assets/Images/png/gmail.png";
+import linkedinIcon from "../../assets/Images/png/LinkedIn_icon.svg.png";
 import { useState } from "react";
 import { useGSAP } from "@gsap/react";
 import PDFPopup from "./PDFPopup";
@@ -25,7 +27,6 @@ const Hero = () => {
         scrollTrigger: {
           trigger: ".hero-page",
           start: "top 100%",
-          end: "bottom 20%",
           toggleActions: "play reverse play reverse",
         },
       }
@@ -41,7 +42,6 @@ const Hero = () => {
         scrollTrigger: {
           trigger: ".hero-page",
           start: "top 100%",
-          end: "bottom 20%",
           toggleActions: "play reverse play reverse",
         },
       }
@@ -116,12 +116,22 @@ const Hero = () => {
         <div className="circle-container">
           <div className="circle circle1"></div>
           <div className="circle circle2"></div>
-          <div className="circle circle3"></div>
           <div className="circle circle4"></div>
           <div className="circle circle5"></div>
           <div className="circle circle6"></div>
         </div>
         <img src={aboutPic} alt="PICTURE" className="aboutPic" />
+        <div className="contact-icons">
+          <a href="mailto:sjaspal.0027@gmail.com">
+            <img src={gmailIcon} alt="Gmail" className="icon" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jaspal-singh-60010a283/"
+            target="_blank"
+          >
+            <img src={linkedinIcon} alt="LinkedIn" className="icon" />
+          </a>
+        </div>
       </div>
       <PDFPopup isOpen={isPDFPopupOpen} closeModal={closePDFPopup} />
     </section>

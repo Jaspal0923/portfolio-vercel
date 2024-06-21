@@ -2,9 +2,9 @@ import "./Awards.css";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import styled from "styled-components";
-import javacert from "../Images/Certificates/it-specialist-java.png";
-import htmlcert from "../Images/Certificates/it-specialist-html-and-css.png";
-import databasecert from "../Images/Certificates/it-specialist-databases.png";
+import javacert from "../../assets/Images/Certificates/it-specialist-java.png";
+import htmlcert from "../../assets/Images/Certificates/it-specialist-html-and-css.png";
+import databasecert from "../../assets/Images/Certificates/it-specialist-databases.png";
 
 // Styled component for awards section
 const AwardsSection = styled.section`
@@ -63,7 +63,6 @@ const Awards = () => {
         scrollTrigger: {
           trigger: ".awards",
           start: "top 100%",
-          end: "bottom 20%",
           toggleActions: "play reverse play reverse",
         },
       }

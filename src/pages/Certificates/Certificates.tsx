@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
-import cert1 from "../Images/Certificates/mentor.png";
-import cert2 from "../Images/Certificates/pycert.jpg";
+import cert1 from "../../assets/Images/Certificates/mentor.png";
+import cert2 from "../../assets/Images/Certificates/pycert.jpg";
 import { Carousel } from "react-responsive-carousel";
 import "./Certificates.css";
 import { useGSAP } from "@gsap/react";
@@ -19,7 +19,6 @@ const Certificates = () => {
         scrollTrigger: {
           trigger: ".certificates",
           start: "top 100%",
-          end: "bottom 20%",
           toggleActions: "play reverse play reverse",
         },
       }

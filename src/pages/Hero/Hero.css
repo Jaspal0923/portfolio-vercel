@@ -55,6 +55,26 @@
   background-color: #ff6347;
 }
 
+.hero-div-right {
+  position: relative;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contact-icons .icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+.contact-icons .icon:hover {
+  transform: scale(1.1);
+}
 .hero-div {
   display: flex;
   flex-direction: column;
@@ -82,11 +102,11 @@
 
 .circle-container {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  height: 100%;
+  height: 80%;
   z-index: 1;
   overflow: hidden;
 }
@@ -152,6 +172,6 @@
   }
   .aboutPic {
     height: 50vh;
-    width: 35vh;
+    width: 40vh;
   }
 }

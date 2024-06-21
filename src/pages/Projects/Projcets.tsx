@@ -3,12 +3,12 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
-import proj1 from "../Images/projects/Proj1.png";
-import proj2 from "../Images/projects/Proj2.png";
-import proj3 from "../Images/projects/Proj3.png";
-import proj4 from "../Images/projects/Proj4.png";
+import proj1 from "../../assets/Images/projects/Proj1.png";
+import proj2 from "../../assets/Images/projects/Proj2.png";
+import proj3 from "../../assets/Images/projects/Proj3.png";
+import proj4 from "../../assets/Images/projects/Proj4.png";
 
-import github from "../Images/png/github_PNG23.png";
+import github from "../../assets/Images/png/github_PNG23.png";
 
 const Projects = () => {
   useGSAP(() => {
@@ -24,7 +24,6 @@ const Projects = () => {
         scrollTrigger: {
           trigger: ".projects",
           start: "top 100%",
-          end: "bottom 10%",
           toggleActions: "play reverse play reverse",
         },
       }
@@ -42,7 +41,6 @@ const Projects = () => {
         scrollTrigger: {
           trigger: ".auto-desc",
           start: "top 100%",
-          end: "bottom 15%",
           toggleActions: "play reverse play reverse",
         },
       }
