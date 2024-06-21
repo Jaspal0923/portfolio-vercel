@@ -13,14 +13,14 @@ const Certificates = () => {
       {
         opacity: 1,
         y: 0,
-        duration: 2,
+        duration: 1,
         stagger: 0.3,
         ease: "back.inOut",
         scrollTrigger: {
           trigger: ".certificates",
           start: "top 100%",
-end:"10%",
-          toggleActions: "play false play false",
+          end: "bottom 10%",
+          toggleActions: "play reverse play reverse",
         },
       }
     );

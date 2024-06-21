@@ -18,13 +18,14 @@ const Projects = () => {
       {
         opacity: 1,
         y: 0,
-        duration: 2,
+        duration: 1,
         stagger: 0.3,
         ease: "power2.out",
         scrollTrigger: {
           trigger: ".projects",
           start: "top 100%",
-          toggleActions: "play false play false",
+          end: "bottom 100%",
+          toggleActions: "play reverse play reverse",
         },
       }
     );
